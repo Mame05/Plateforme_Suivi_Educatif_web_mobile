@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+                                                         /*------------------ Header --------------------*/                       
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+header {
+    position: relative;
+    padding: 0 10rem;
+    background-color: #08649C;
+    margin: 0;
+}
+.navbar {
+    width: 100%;
+    height: 88px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #ffffff;
+    font-weight:700;
+    font-size:30px;
+}
+.navbar .links {
+    font-weight:400;
+    font-size:24px;
+    display: flex;
+    gap: 25px;
+
+}
+.navbar .links a{
+    color: #ffffff;
+}
+.button{
+    background-color: #ffffff;
+    width: 185px;
+    height: 55px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 8px 16px 13px; /* Haut, droite, bas, gauche */
+}
+.button a{
+    color: #08649C;
+    font-weight: bold;
+    font-size: 24px;
+}
+.navbar .logo a:hover{
+    color: #FF9933;
+}
+.navbar .links a:hover{
+    color: #FF9933;
+}
+.navbar .button:hover{
+    background-color:  #FF9933;
+}
+.navbar .button a:hover{
+    color:#ffffff;
+}
+                                                   /*------------------ Banière --------------------*/
+
+.banniere{
+    margin-top: -5px;
+    width: 100%;
+    height: 370px;
+    background-image: linear-gradient(rgba(8, 100, 156, 0.54), rgba(8, 100, 156, 0.54)),url(./images/Rectangle\ 6.png);
+    background-size: cover; /* pour couvrir tout l'arrière-plan */
+    background-repeat: no-repeat; /* pour éviter la répétition de l'image */
+}
+.banniere h1{
+    font-size: 35px;
+    color: #ffffff;
+    padding-top: 107px ;
+    padding-right: 501px;
+    /*padding-bottom: 211px;*/
+   padding-left: 750px;
+}
+.banniere h3{
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-right: 527px;
+    padding-left: 775px;
+    text-indent: 1.4em; /* Décalage de deux carreaux */
+   line-height: 1.3; /* Hauteur de ligne de 1.5*/
+}
+.inscription{
+    width: 100%;
+    height: 506px;
+}
+.inscription h4{
+    font-size: 24px;
+    padding-top: 25px;
+    padding-right: 168px;
+    padding-left: 300px;
+}
+.conteneur1{
+    display:flex;
+    padding-top:22px;
+    padding-left:22%;
+}
+.inscrire1{
+    width:520px;
+    height:376px;
+    background-color: #08649C;
+    border-radius: 10px;
+    margin-right:16px;
+}
+.inscrire2{
+    width:520px;
+    height:376px;
+    background-color: #08649C;
+    border-radius: 10px;
+    margin-left:16px;
+}
+.image_inscrit{
+    padding: 14px 34px 11px 34px;
+}
+.inscrire1 button{
+    width:454px;
+    height:70px;
+    margin: 7px 34px 5px 34px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 2px;
+}
+.inscrire2 button{
+    width:454px;
+    height:70px;
+    margin: 7px 34px 5px 34px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 2px;
+}
+.button_inscrit{
+    font-weight: bold;
+    font-size: 24px;
+    color:#08649C;
+}
+.inscrire1 button:hover{
+    background-color:  #FF9933;
+}
+.inscrire2 button:hover{
+    background-color:  #FF9933;
+}
+.button_inscrit:hover{
+    color:#ffffff;
+}
+
+
+
