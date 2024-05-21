@@ -49,6 +49,7 @@ header {
     outline: none;
     cursor: pointer;
     padding: 14px 8px 16px 13px; /* Haut, droite, bas, gauche */
+    cursor: pointer;
 }
 .button a{
     color: #08649C;
@@ -133,6 +134,7 @@ header {
     background-color: #ffffff;
     border: none;
     border-radius: 2px;
+    cursor: pointer;
 }
 .inscrire2 button{
     width:454px;
@@ -141,6 +143,7 @@ header {
     background-color: #ffffff;
     border: none;
     border-radius: 2px;
+    cursor: pointer;
 }
 .button_inscrit{
     font-weight: bold;
@@ -319,6 +322,7 @@ header {
     background-color: #08649C;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .detail_evenement{
     font-weight: bold;
@@ -356,6 +360,7 @@ header {
     background-color: #08649C;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .evenement2 button:hover{
     background-color:  #FF9933;
@@ -385,6 +390,7 @@ header {
     background-color: #08649C;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .evenement3 button:hover{
     background-color:  #FF9933;
@@ -503,5 +509,87 @@ header {
     width: 296px;
     height: 154px;
     margin-left:70px;
+}
+                                   /*-------------------------Contact--------------------*/
+.contacts{
+    width: 100%;
+    height: 900px;
+    background-color: rgba(8, 100, 156, 0.04);
+}
+.contacts h1{
+    font-weight: bold;
+    font-size: 30px;
+    color:#000000;
+    padding-top: 25px;
+    text-align: center;  /* Pour centrer le titre*/
+}
+.conteneur6{
+    display: flex;
+    padding-top:40px;
+    padding-left:22%;
+}
+.contact h4{
+    font-weight: bold;
+    font-size: 25px;
+    color:#000000;
+}
+.conteneur6 .contact{
+    margin-left: 30px;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+}
+
+label {                       /*Il gère les proprieté des label ie ceux qui se trouve sur les colonnes*/
+    margin-top: 10px;
+    margin-left: 5px;
+    font-weight:500;
+    font-family: 24px;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="email"]{
+    padding: 10px;
+    margin-top: 10px;
+    width: 600px;      /*C est pour définir les largeurs et les */
+    height: 60px;      /*longueurs des case du formulaire*/
+    border: 1px solid rgba(255, 153, 51, 0.2);
+    font-weight:400;     /*Pour la typographi*/
+    font-family: 20px;   /*des values*/
+}
+textarea {
+    padding: 10px;
+    margin-top: 10px;
+    width: 600px;      /*C est pour définir les largeurs et les */
+    height: 150px;      /*longueurs des case du formulaire*/
+    border: 1px solid rgba(255, 153, 51, 0.2);
+    font-weight:400;
+    font-family: 20px;
+}
+
+.contact form button {
+    margin-top: 50px;
+    width: 268px;
+    height: 53px;
+    background-color:#08649C;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.contact form .button_contact{
+    font-weight: bold;
+    font-size: 25px;
+    color:#ffffff;
+}
+.contact form button:hover{
+    background-color: #FF9933;
+}
+.contact form .button_contact:hover{
+    color: #08649C;
+}
+.conteneur6 img{
+    margin-left:130px
 }
 
