@@ -208,12 +208,11 @@ header {
     color:#000000;
     padding: 14px 33px 68px;
 }
-.petit_trait {
+.petit_trait1 {
     width: 75px; /* Longueur du trait */
     height: 3px; /* Épaisseur du trait */
     background-color: #000000; /* Couleur du trait */
-    /*margin: 0 auto; /* Centrage du trait */
-    margin:-50px 33px;
+    margin:-50px 33px;    /*marge du trait par rapport au text*/
   }
   .annonce1 p{
     font-weight:400;
@@ -277,4 +276,198 @@ header {
     border-radius: 50px;
     margin: 60px 10px;
   }
+                           /*--------------------------------Evènements---------------------------------*/
+.evenement{
+    width: 100%;
+    height: 580px;
+    background-color: #ffffff;
+}
+.evenement h1{
+    font-weight: bold;
+    font-size: 30px;
+    color:#000000;
+    padding-top: 25px;
+    text-align: center;  /* Pour centrer le titre*/
+}
+  .conteneur3{
+    display:flex;
+    padding-top:40px;
+    padding-left:22%;
+}
+.evenement1{
+    width: 296px;
+    height: 340px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ombre avec un flou de 10px */
+    margin-left:50px;
 
+}
+.evenement1 img{
+    padding: 15px 15px 10px 16px;
+
+}
+.evenement1 p{
+    font-weight:400;
+    font-size: 18px;
+    color:#000000;
+    padding: 10px 33px;
+}
+.evenement1 button{
+    width:224px;
+    height:50px;
+    margin: 6px 33px 25px 37px;
+    background-color: #08649C;
+    border: none;
+    border-radius: 5px;
+}
+.detail_evenement{
+    font-weight: bold;
+    font-size: 24px;
+    color:#ffffff;
+}
+.evenement1 button:hover{
+    background-color:  #FF9933;
+}
+.detail_evenement:hover{
+    color:#08649C;
+}
+.evenement2{
+    width: 296px;
+    height: 350px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ombre avec un flou de 10px */
+    margin-left:50px;
+
+}
+.evenement2 img{
+    padding: 15px 15px 10px 16px;
+
+}
+.evenement2 p{
+    font-weight:400;
+    font-size: 18px;
+    color:#000000;
+    padding: 10px 33px;
+}
+.evenement2 button{
+    width:224px;
+    height:50px;
+    margin: 11px 33px 25px 37px;
+    background-color: #08649C;
+    border: none;
+    border-radius: 5px;
+}
+.evenement2 button:hover{
+    background-color:  #FF9933;
+}
+.evenement3{
+    width: 296px;
+    height: 350px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ombre avec un flou de 10px */
+    margin-left:50px;
+
+}
+.evenement3 img{
+    padding: 15px 15px 10px 16px;
+
+}
+.evenement3 p{
+    font-weight:400;
+    font-size: 18px;
+    color:#000000;
+    padding: 10px 33px;
+}
+.evenement3 button{
+    width:224px;
+    height:50px;
+    margin: 11px 33px 25px 37px;
+    background-color: #08649C;
+    border: none;
+    border-radius: 5px;
+}
+.evenement3 button:hover{
+    background-color:  #FF9933;
+}
+                                     /*-------------------------------Statistiques----------------------------------*/
+.statistiques{
+    width: 100%;
+    height: 480px;
+    background-color: rgba(8, 100, 156, 0.04);
+}
+.statistiques h1{
+    font-weight: bold;
+    font-size: 30px;
+    color:#000000;
+    padding-top: 25px;
+    text-align: center;  /* Pour centrer le titre*/
+}
+.statistiques h6{
+    font-weight:550;
+    font-size: 25px;
+    color:#000000;
+    padding-top: 50px;
+    text-align: center;
+}
+.petit_trait2 {
+    width: 75px; /* Longueur du trait */
+    height: 3px; /* Épaisseur du trait */
+    background-color: #000000; /* Couleur du trait */
+    margin: 20px auto; /* Marge d'en haut et centrage du trait */
+  }
+.conteneur4{
+    display: flex;
+    padding-top:60px;
+    padding-left:22%;
+}
+.stat1{
+    width: 310px;
+    height: 100px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ombre avec un flou de 10px */
+    margin-left:50px;
+}
+.statistique{
+    display: flex;
+}
+.stat1 img{
+    padding: 17px 14px 18px 14px;
+}
+.stat1 p{
+    font-weight:500;
+    font-size: 25px;
+    color: #000000;
+    padding: 35px 20px 30px 0px;
+}
+.stat2{
+    width: 310px;
+    height: 100px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ombre avec un flou de 10px */
+    margin-left:50px;
+}
+.stat2 img{
+    padding: 17px 14px 18px 14px;
+}
+.stat2 p{
+    font-weight:500;
+    font-size: 25px;
+    color: #000000;
+    padding: 35px 20px 30px 0px;
+}
+.stat3{
+    width: 310px;
+    height: 100px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ombre avec un flou de 10px */
+    margin-left:50px;
+}
+.stat3 img{
+    padding: 17px 14px 18px 14px;
+}
+.stat3 p{
+    font-weight:500;
+    font-size: 25px;
+    color: #000000;
+    padding: 35px 20px 30px 0px;
+}
